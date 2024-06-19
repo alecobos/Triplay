@@ -73,7 +73,6 @@ body{
       width: 230px;
       height: 350px;
       padding-left: 10px;
-      background-image: url(../img/comercial.png);
       box-shadow: 6px 3px 10px grey;
       border-radius: 10px;
       .tipo-plan{
@@ -180,9 +179,9 @@ body{
   }
 }
 
-/* .servicio-internet{
+.servicios-mostrar{
   display: none;
-} */
+}
 
 /* ====================================MEDIA QUERYS PANTALLA SM========================= */
 @media (max-width: 768px){
