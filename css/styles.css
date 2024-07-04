@@ -201,3 +201,86 @@ body{
     justify-content: center !important;
   }
 }
+
+/* ====================================UBICACION========================= */
+
+.grilla-map {
+  display: grid;
+  grid-template-rows: 100px 350px;
+  grid-template-columns: 400px;
+  text-align: center;
+  /*background-color: $azul;*/
+}
+@media screen and (min-width: 768px) {
+  .grilla-map {
+    grid-template-rows: 500px;
+    grid-template-columns: 1fr 2fr;
+    /* margin-top: 100px; */
+  }
+}
+
+
+.mapa {
+  width: 290px;
+  height: 290px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .mapa {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mapa {
+    width: 600px;
+    height: 450px;
+  }
+}
+
+.localidad {
+  text-align: center;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .localidad {
+    text-align: right;
+    padding-right: 5px;
+  }
+}
+
+/* =====================================WHATSAPP================================================ */
+/* whatsapp */
+.whatsapp {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding-right: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 3px;
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .whatsapp {
+    padding-right: 40px;
+    bottom: 10px;
+    right: 20px;
+  }
+}
+.whatsapp a img {
+  width: 40px;
+  height: 40px;
+  padding-right: 0px;
+  transition-duration: 0.5s;
+}
+@media screen and (min-width: 768px) {
+  .whatsapp a img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.whatsapp a img:hover {
+  transform: scale(1.08);
+}
