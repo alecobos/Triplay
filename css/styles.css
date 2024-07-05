@@ -284,3 +284,124 @@ body{
 .whatsapp a img:hover {
   transform: scale(1.08);
 }
+
+
+/* =====================================FOOTER================================================ */
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: stretch;
+  bottom: 1px;
+  background-color: #E72876;
+  color: whitesmoke;
+  height: 85px;
+  align-items: center;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    justify-content: space-between;
+  }
+}
+.footer nav ul {
+  display: flex;
+  gap: 5px;
+}
+@media screen and (min-width: 768px) {
+  .footer nav ul {
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer nav ul {
+    gap: 20px;
+  }
+}
+.footer nav ul li {
+  list-style: none;
+}
+.footer nav ul li a {
+  display: flex;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: x-small;
+}
+@media screen and (min-width: 768px) {
+  .footer nav ul li a {
+    font-size: large;
+  }
+}
+.footer nav ul li span {
+  font-size: small;
+}
+@media screen and (min-width: 768px) {
+  .footer nav ul li span {
+    font-size: large;
+  }
+}
+
+.ico-fb {
+  width: 10px;
+  height: 100%;
+  transition-duration: 0.5s;
+}
+@media screen and (min-width: 768px) {
+  .ico-fb {
+    width: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ico-fb {
+    width: 16px;
+  }
+}
+
+.ico-fb:hover {
+  transform: scale(1.08);
+}
+
+.ico-ig {
+  width: 16px;
+  height: 100%;
+  transition-duration: 0.5s;
+}
+@media screen and (min-width: 768px) {
+  .ico-ig {
+    width: 24px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ico-ig {
+    width: 24px;
+  }
+}
+
+.ico-ig:hover {
+  transform: scale(1.08);
+}
+
+.ico-mail {
+  width: 20px;
+  height: 100%;
+  transition-duration: 0.5s;
+}
+@media screen and (min-width: 768px) {
+  .ico-mail {
+    width: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ico-mail {
+    width: 30px;
+  }
+}
+
+.ico-mail:hover {
+  transform: scale(1.1);
+}
