@@ -84,8 +84,13 @@ body{
         text-align: center;
         padding-right: 5px;
         margin-top: 0px;
+        .tachado{
+          text-decoration: line-through;
+        }
       }
-
+      .tachado{
+        text-decoration: line-through;
+      }
       .numero-plan {
         font-size: xx-large;
         font-weight: bolder;
@@ -177,6 +182,13 @@ body{
       transform: translateY(20%);
     }
   }
+}
+
+.cuadrado{
+  transition-duration: 0.5s;
+}
+.cuadrado:hover {
+  transform: scale(1.08);
 }
 
 .servicios-mostrar{
@@ -294,7 +306,7 @@ body{
   bottom: 1px;
   background-color: #E72876;
   color: whitesmoke;
-  height: 85px;
+  height: 70px;
   align-items: center;
   padding: 5px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -306,7 +318,8 @@ body{
 }
 @media screen and (min-width: 1024px) {
   .footer {
-    justify-content: space-between;
+    justify-content: center;
+    padding: 25px;
   }
 }
 .footer nav ul {
@@ -321,6 +334,7 @@ body{
 @media screen and (min-width: 1024px) {
   .footer nav ul {
     gap: 20px;
+    padding-top: 15px;
   }
 }
 .footer nav ul li {
@@ -335,6 +349,7 @@ body{
 @media screen and (min-width: 768px) {
   .footer nav ul li a {
     font-size: large;
+    padding-top: 5px;
   }
 }
 .footer nav ul li span {
@@ -404,4 +419,25 @@ body{
 
 .ico-mail:hover {
   transform: scale(1.1);
+}
+
+
+.ico-ln {
+  width: 10px;
+  height: 100%;
+  transition-duration: 0.5s;
+}
+@media screen and (min-width: 768px) {
+  .ico-ln {
+    width: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ico-ln {
+    width: 25px;
+  }
+}
+
+.ico-ln:hover {
+  transform: scale(1.08);
 }
