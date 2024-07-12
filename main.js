@@ -44,7 +44,7 @@ document.getElementById('it').addEventListener("mouseover",() => {
 })
 
 const redireccion = (plan) => {
-    location.href = "../pages/formulario-contacto.html"
+    location.href = "./pages/formulario-contacto.html"
     return (plan)
     // setTimeout(() => {
     //     // parrafo.textContent += ' y un segundo después hay más contenido';
