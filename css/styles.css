@@ -264,6 +264,17 @@ body{
   }
 }
 
+.centrado {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important; 
+}
+
+.largo {
+  width: 800px;
+}
+
 /* =====================================WHATSAPP================================================ */
 /* whatsapp */
 .whatsapp {
