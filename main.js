@@ -4,6 +4,7 @@ document.getElementById('internet').addEventListener("mouseover",() => {
     document.getElementById('dato-nube').style.display = 'none';
     document.getElementById('dato-video').style.display = 'none';
     document.getElementById('dato-redes').style.display = 'none';
+    document.getElementById('dato-it').style.display = 'none';
 })
 
 document.getElementById('nube').addEventListener("mouseover",() => {
@@ -12,6 +13,7 @@ document.getElementById('nube').addEventListener("mouseover",() => {
     document.getElementById('dato-nube').style.display = 'block';
     document.getElementById('dato-video').style.display = 'none';
     document.getElementById('dato-redes').style.display = 'none';
+    document.getElementById('dato-it').style.display = 'none';
 })
 
 document.getElementById('vigilancia').addEventListener("mouseover",() => {
@@ -20,6 +22,7 @@ document.getElementById('vigilancia').addEventListener("mouseover",() => {
     document.getElementById('dato-nube').style.display = 'none';
     document.getElementById('dato-video').style.display = 'block';
     document.getElementById('dato-redes').style.display = 'none';
+    document.getElementById('dato-it').style.display = 'none';
 })
 
 document.getElementById('redes').addEventListener("mouseover",() => {
@@ -28,6 +31,16 @@ document.getElementById('redes').addEventListener("mouseover",() => {
     document.getElementById('dato-nube').style.display = 'none';
     document.getElementById('dato-video').style.display = 'none';
     document.getElementById('dato-redes').style.display = 'block';
+    document.getElementById('dato-it').style.display = 'none';
+})
+
+document.getElementById('it').addEventListener("mouseover",() => {
+    console.log("introducir los cambios");
+    document.getElementById('dato-internet').style.display = 'none';
+    document.getElementById('dato-nube').style.display = 'none';
+    document.getElementById('dato-video').style.display = 'none';
+    document.getElementById('dato-redes').style.display = 'none';
+    document.getElementById('dato-it').style.display = 'block';
 })
 
 const redireccion = (plan) => {
