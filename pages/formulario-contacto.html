@@ -58,20 +58,20 @@
         <!-- ========================================|FORMULARIO|========================================================== -->
         <!-- ============================================================================================================== -->
         <div class="centrado">
-            <form>
+            <form action="https://formsubmit.co/alecobos@gmail.com" method="POST"></form>>
                 <div class="form-group largo">
                     <label for="nombre" class="mt-3">Nombre completo</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Juan Perez">
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Juan Perez">
                     <label for="telefono" class="mt-3">Teléfono</label>
-                    <input type="number" class="form-control" id="telefono" placeholder="">
+                    <input type="number" class="form-control" id="telefono" name="telefono" placeholder="">
                     <label for="exampleFormControlInput1" class="mt-3">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="nombre@ejemplo.com">
                 </div>
                 <div class="form-group">
                     <label for="direccion" class="mt-3">Dirección</label>
-                    <input type="text" class="form-control" id="direccion" placeholder="">
+                    <input type="text" class="form-control" id="direccion" name="direccion" placeholder="">
                     <label for="exampleFormControlSelect1" class="mt-3">Localidad</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <select class="form-control" id="exampleFormControlSelect1" name="localidad">
                         <option>Seleccionar</option>
                         <option>El Carril</option>
                         <option>La Merced</option>
@@ -82,11 +82,11 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1" class="mt-3">¿Como llegar?</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Una breve descripción de como llegar a su domicilio"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="como-llegar" placeholder="Una breve descripción de como llegar a su domicilio"></textarea>
                 </div>
 
                 <div>
-                    <button class="btn btn-primary mt-3 mb-3">Enviar</button>
+                    <button class="btn btn-primary mt-3 mb-3" type="submit">Enviar</button>
                 </div>
             </form>
         </div>
