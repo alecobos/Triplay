@@ -29,6 +29,15 @@ body{
   text-align: right;
 }
 
+.link-hover {
+  transition-duration: 0.5s;
+}
+
+.link-hover:hover {
+  transform: scale(1.03);
+  /* text-shadow: 1px 1px 2px #0571B6; */
+}
+
 /* ====================================SLIDER DE IMAGENES========================= */
 
 .carousel-inner {
@@ -241,7 +250,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap:60px;
+  gap:100px;
   padding-bottom: 30px;
   margin-top: 40px;
   .ubicacion{
@@ -250,14 +259,14 @@ body{
       align-items: center;
       color: whitesmoke;
       background-color: #E72876; 
-      width: 350px;
-      height: 420px;
-      padding-left: 5px;
+      /* background-color: #AB1A55;  */
+      width: 330px;
+      height: 400px;
+      padding-left: 2px;
       box-shadow: 6px 3px 10px grey;
       border-radius: 10px;
       transition-duration: 0.5s;
       .texto-localidad{
-          /* font-size: large; */
           margin-top: 10px;
           text-align: center;
           color: whitesmoke;
