@@ -4,13 +4,13 @@ document.getElementById('btn-enviar').addEventListener("click", (evento) =>{
     Swal.fire({
         icon: 'success',
         title: `Se envió su solicitud, en breve nos pondremos en contacto con usted`,
-        showConfirmButton: true,
+        showConfirmButton: false,
     });
     setTimeout(function(){
         // console.log("Hola Mundo");
         
         redirect()
-    }, 9000);
+    }, 3000);
 })
 
 function redirect()
