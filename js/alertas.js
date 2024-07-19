@@ -19,11 +19,11 @@ window.location.href="../index.html";
 }
 
 function sendMail(){
-    const nombre = document.getElementById("nombre").value;
+    const nombre = document.getElementById("nombre");
 
     const parametros ={
-        name: document.getElementById("nombre").value,
-        email : document.getElementById("email").value,
+        name: document.getElementById("nombre"),
+        email : document.getElementById("email"),
     }
     console.log(nombre)
 }
