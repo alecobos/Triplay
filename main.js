@@ -1,5 +1,5 @@
 document.getElementById('internet').addEventListener("mouseover",() => {
-    console.log("introducir los cambios");
+    // console.log("introducir los cambios");
     document.getElementById('dato-internet').style.display = 'block';
     document.getElementById('dato-nube').style.display = 'none';
     document.getElementById('dato-video').style.display = 'none';
@@ -8,7 +8,7 @@ document.getElementById('internet').addEventListener("mouseover",() => {
 })
 
 document.getElementById('nube').addEventListener("mouseover",() => {
-    console.log("introducir los cambios");
+    // console.log("introducir los cambios");
     document.getElementById('dato-internet').style.display = 'none';
     document.getElementById('dato-nube').style.display = 'block';
     document.getElementById('dato-video').style.display = 'none';
@@ -17,7 +17,7 @@ document.getElementById('nube').addEventListener("mouseover",() => {
 })
 
 document.getElementById('vigilancia').addEventListener("mouseover",() => {
-    console.log("introducir los cambios");
+    // console.log("introducir los cambios");
     document.getElementById('dato-internet').style.display = 'none';
     document.getElementById('dato-nube').style.display = 'none';
     document.getElementById('dato-video').style.display = 'block';
@@ -26,7 +26,7 @@ document.getElementById('vigilancia').addEventListener("mouseover",() => {
 })
 
 document.getElementById('redes').addEventListener("mouseover",() => {
-    console.log("introducir los cambios");
+    // console.log("introducir los cambios");
     document.getElementById('dato-internet').style.display = 'none';
     document.getElementById('dato-nube').style.display = 'none';
     document.getElementById('dato-video').style.display = 'none';
@@ -35,7 +35,7 @@ document.getElementById('redes').addEventListener("mouseover",() => {
 })
 
 document.getElementById('it').addEventListener("mouseover",() => {
-    console.log("introducir los cambios");
+    // console.log("introducir los cambios");
     document.getElementById('dato-internet').style.display = 'none';
     document.getElementById('dato-nube').style.display = 'none';
     document.getElementById('dato-video').style.display = 'none';

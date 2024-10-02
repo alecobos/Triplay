@@ -12,6 +12,7 @@ body {
   min-height: 100dvh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background: #f2f2f2;
 }
 /*=====================================MENU==============================*/
 
@@ -29,6 +30,11 @@ body {
   font-size: 18px;
   color: whitesmoke;
   text-align: right;
+  transition-duration: 0.5s;
+}
+
+#menu p:hover {
+  transform: scale(1.03);
 }
 
 .link-hover {
@@ -232,6 +238,122 @@ body {
 .servicios-mostrar{
   display: none;
 }
+/*
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+} */
+
+
+.slider-container {
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+    transition-duration: 0.5s;
+}
+
+/* .slider-container:before,
+.slider-container:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+} */
+
+.slider-container:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.slider-container:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.slider-container .slide-track {
+    display: flex;
+    animation: scroll 35s linear infinite;
+    -webkit-animation: scroll 35s linear infinite;
+    width: calc(200px * 16);
+}
+
+.slider-container:hover .slide-track {
+  animation-play-state: paused;
+}
+
+.slide-img img {
+    height: 100px;
+
+
+}
+/* .slider .slide img {
+    width: 100%;
+} */
+
+.slide-img {
+  margin: 0 40px;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 8));
+        transform: translateX(calc(-200px * 8));
+    }
+}
 
 /* ====================================MEDIA QUERYS PANTALLA SM========================= */
 @media (max-width: 768px){
@@ -266,7 +388,7 @@ body {
       flex-direction: column;
       align-items: center;
       color: whitesmoke;
-      background-color: #E72876; 
+      background-color: #E72876;
       /* background-color: #AB1A55;  */
       width: 330px;
       height: 450px;
@@ -296,7 +418,7 @@ body {
         transition: background-size .3s;
       }
       a:hover, a:focus {
-          background-size: 100% 2px;  
+          background-size: 100% 2px;
       }
   }
 }
@@ -354,7 +476,7 @@ body {
   display: flex;
   align-items: center !important;
   justify-content: center !important;
-  text-align: center !important; 
+  text-align: center !important;
 }
 
 /* ====================================FORM-CONTACTO========================= */
